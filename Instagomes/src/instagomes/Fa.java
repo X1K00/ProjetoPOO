@@ -13,7 +13,7 @@ public class Fa implements IFa{
 
     @Override
     public void receber(Atualizacao a) {
-        System.out.println("Recebendo notificação de "+a.getNome()+"\nTitulo: "+a.getTitulo()+"\nConteudo: "+a.getConteudo()+"\nLegenda: "+a.getLegenda()+"\n");
+        System.out.println(this.nome+"\nRecebendo notificação de "+a.getNome()+"\nTitulo: "+a.getTitulo()+"\nConteudo: "+a.getConteudo()+"\nLegenda: "+a.getLegenda()+"\n");
     }
 
     @Override
@@ -22,8 +22,8 @@ public class Fa implements IFa{
     }
 
     @Override
-    public void cancelarInscricao() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void cancelarInscricao(ICelebridade c) {
+        c.cancelaFa(this);
     }
     
     

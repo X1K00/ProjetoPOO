@@ -5,7 +5,7 @@ public interface IFa {
     
     void receber(Atualizacao a);
     void fazerInscricao(ICelebridade c);
-    void cancelarInscricao();
+    void cancelarInscricao(ICelebridade c);
        
 }
 
