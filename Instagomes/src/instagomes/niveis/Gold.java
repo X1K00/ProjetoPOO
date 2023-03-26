@@ -1,22 +1,24 @@
 package instagomes.niveis;
 
-import instagomes.interfaces.INivelAssinatura;
+public class Gold extends Niveis{
+    private String nom_nivel = "Gold";
 
-public class Gold implements INivelAssinatura{
+    @Override
+    public String getNome_nivel() {
+        return nom_nivel;
+    }
 
     @Override
     public void receberConteudo() {
-        System.out.println("Recebndo conteudo");
+        System.out.println("Recebendo conteudo...");
     }
 
     @Override
     public void mandarMenssagem() {
-        System.out.println("Mandando menssagem");
+        System.out.println(getMensagem());
     }
 
     @Override
-    public void vonteudoExclusi() {
-        System.out.println("Recebendo conteudo exclusivo");
-    }
+    public void vonteudoExclusi() {}
     
 }

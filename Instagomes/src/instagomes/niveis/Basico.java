@@ -1,9 +1,13 @@
 package instagomes.niveis;
 
-import instagomes.interfaces.INivelAssinatura;
+public class Basico extends Niveis{
+    private String nom_nivel = "Basico";
 
-public class Basico implements INivelAssinatura{
-
+    @Override
+    public String getNome_nivel() {
+        return nom_nivel;
+    }  
+    
     @Override
     public void receberConteudo() {
         System.out.println("Recebendo conteudo");

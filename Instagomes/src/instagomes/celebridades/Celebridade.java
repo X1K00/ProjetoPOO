@@ -38,6 +38,7 @@ public class Celebridade implements ICelebridade{
         for (IFa f : assinantes)
             f.receber(a);
     }
+    
     public void setAtualizacao(Atualizacao a){
         this.a = a;
     }

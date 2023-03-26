@@ -1,8 +1,12 @@
 package instagomes.niveis;
 
-import instagomes.interfaces.INivelAssinatura;
+public class Premium extends Niveis{
+    private String nom_nivel = "Premium";
 
-public class Premium implements INivelAssinatura{
+    @Override
+    public String getNome_nivel() {
+        return nom_nivel;
+    }
 
     @Override
     public void receberConteudo() {
@@ -11,10 +15,12 @@ public class Premium implements INivelAssinatura{
 
     @Override
     public void mandarMenssagem() {
-        System.out.println("Mandando Menssagem");
+        System.out.println(getMensagem());
     }
 
     @Override
-    public void vonteudoExclusi() {}
+    public void vonteudoExclusi() {
+        System.out.println(getExclusivo());
+    }
     
 }

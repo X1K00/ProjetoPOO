@@ -5,6 +5,25 @@ public class Atualizacao {
     private String titulo;
     private String conteudo;
     private String nome;
+    
+    private String mensagem;
+    private String exclusivo;
+
+    public String getMensagem() {
+        return mensagem;
+    }
+
+    public void setMensagem(String mensagem) {
+        this.mensagem = mensagem;
+    }
+
+    public String getExclusio() {
+        return exclusivo;
+    }
+
+    public void setExclusio(String exclusivo) {
+        this.exclusivo = exclusivo;
+    }
 
     public void setNome(String nome) {
         this.nome = nome;
