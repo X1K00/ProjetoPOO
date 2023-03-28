@@ -1,8 +1,9 @@
 package instagomes.niveis;
 
+import instagomes.decorator.Componente;
 import instagomes.interfaces.INivelAssinatura;
 
-public abstract class Niveis implements INivelAssinatura{
+public abstract class Niveis extends Componente implements INivelAssinatura{
     private String mensagem;
     private String exclusivo;
 

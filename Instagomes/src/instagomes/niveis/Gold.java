@@ -2,6 +2,10 @@ package instagomes.niveis;
 
 public class Gold extends Niveis{
     private String nom_nivel = "Gold";
+    public Gold(){
+        this.nome = nom_nivel;
+        this.custo = 100.00;
+    }
 
     @Override
     public String getNome_nivel() {

@@ -18,6 +18,8 @@ public class Instagomes {
         
         Fa f2 = new Fa("fã do luva 1");
         f2.fazerInscricao(l, g);
+        f2.assinarVip();
+        f2.assinarPresente();
         
         Fa f1 = new Fa("fã do manel 1");
         f1.fazerInscricao(m, b);

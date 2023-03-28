@@ -2,7 +2,11 @@ package instagomes.niveis;
 
 public class Basico extends Niveis{
     private String nom_nivel = "Basico";
-
+    public Basico(){
+        this.nome = nom_nivel;
+        this.custo = 10.00;
+    }
+    
     @Override
     public String getNome_nivel() {
         return nom_nivel;
