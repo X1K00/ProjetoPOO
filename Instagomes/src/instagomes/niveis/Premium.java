@@ -1,10 +1,10 @@
 package instagomes.niveis;
 
-public class Premium extends Niveis{
+public class Premium extends Niveis{ //Strategy - A assinatura Premium vai receber conteudo basico e receber menssagens da celebridade 
     private String nom_nivel = "Premium";
     public Premium(){
         this.nome = nom_nivel;
-        this.custo = 200.00;
+        this.valor = 200.00;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class Premium extends Niveis{
 
     @Override
     public void vonteudoExclusi() {
-        System.out.println(getExclusivo());
+        
     }
     
 }

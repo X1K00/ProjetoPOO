@@ -1,8 +1,8 @@
 package instagomes.decorator;
 
-public abstract class Componente{
+public abstract class Componente{ //Decorator
     protected String nome;
-    protected double custo;
+    protected double valor;
 
     public String getNome() {
         return nome;
@@ -13,11 +13,11 @@ public abstract class Componente{
     }
 
     public double getCusto() {
-        return custo;
+        return valor;
     }
 
     public void setCusto(double custo) {
-        this.custo = custo;
+        this.valor = custo;
     }
     
             

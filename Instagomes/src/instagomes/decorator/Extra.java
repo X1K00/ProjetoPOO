@@ -1,6 +1,6 @@
 package instagomes.decorator;
 
-public abstract class Extra extends Componente{
+public abstract class Extra extends Componente{ //Decorator
     private Componente componente;
     
     public Extra(Componente componente){
@@ -12,7 +12,7 @@ public abstract class Extra extends Componente{
     
     @Override
     public double getCusto() {
-        return this.custo + componente.getCusto();
+        return this.valor + componente.getCusto();
     }
     @Override
     public String getNome() {

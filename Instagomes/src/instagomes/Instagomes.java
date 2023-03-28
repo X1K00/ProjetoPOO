@@ -9,6 +9,7 @@ public class Instagomes {
     public static void main(String[] args) {
         Celebridade m = new Celebridade("Manel Gome");
         Celebridade l = new Celebridade("Luva de Pedreiro");
+        Celebridade x = new Celebridade("Xuxa");
 
         Basico b = new Basico();
         Gold g = new Gold();
@@ -20,6 +21,8 @@ public class Instagomes {
         f2.fazerInscricao(l, g);
         f2.assinarVip();
         f2.assinarPresente();
+        
+        
         
         Fa f1 = new Fa("fã do manel 1");
         f1.fazerInscricao(m, b);
@@ -58,6 +61,7 @@ public class Instagomes {
         System.out.println("Uma semana depois...###########################################################################################\n");
         
         f3.cancelarInscricao(l);
+        f2.cancelarAssinaturas();
         
         a1.setNome(l.getNome());
         a1.setConteudo("conteudo luva 2");

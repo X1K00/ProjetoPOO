@@ -1,10 +1,10 @@
 package instagomes.niveis;
 
-public class Basico extends Niveis{
+public class Basico extends Niveis{ //Strategy - A assinatura basica, vai receber apenas o conteudo normal
     private String nom_nivel = "Basico";
     public Basico(){
         this.nome = nom_nivel;
-        this.custo = 10.00;
+        this.valor = 10.00;
     }
     
     @Override

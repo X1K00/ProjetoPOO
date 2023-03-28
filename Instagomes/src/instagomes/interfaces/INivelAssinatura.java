@@ -1,6 +1,6 @@
 package instagomes.interfaces;
 
-public interface INivelAssinatura {
+public interface INivelAssinatura { // Stragy - Interface para os niveis de assinatura
     
     String getNome_nivel();
     void receberConteudo();

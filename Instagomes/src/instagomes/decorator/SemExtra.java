@@ -1,10 +1,10 @@
 package instagomes.decorator;
 
-public class SemExtra extends Extra{
+public class SemExtra extends Extra{ //Decorator - Ausencia de assinatura extra
     public SemExtra(Componente componente){
         super(componente);
-        nome = "Conta Padrão";
-        custo = 0;
+        nome = "Acesso padrão";
+        valor = 0;
     }
     
 }

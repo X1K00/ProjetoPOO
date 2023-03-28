@@ -5,15 +5,17 @@
         <group>
             <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/niveis/Gold.java</file>
             <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/niveis/Premium.java</file>
-            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/celebridades/Celebridade.java</file>
+            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/decorator/SemExtra.java</file>
+            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/decorator/Presentes.java</file>
+            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/interfaces/INivelAssinatura.java</file>
+            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/niveis/Basico.java</file>
+            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/decorator/Vip.java</file>
             <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/Fa.java</file>
             <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/interfaces/IFa.java</file>
             <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/niveis/Niveis.java</file>
-            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/interfaces/ICelebridade.java</file>
-            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/interfaces/INivelAssinatura.java</file>
+            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/decorator/Componente.java</file>
+            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/decorator/Extra.java</file>
             <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/Instagomes.java</file>
-            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/Atualizacao.java</file>
-            <file>file:/C:/Users/franc/Documents/GitHub/ProjetoPOO/Instagomes/src/instagomes/niveis/Basico.java</file>
         </group>
     </open-files>
 </project-private>
