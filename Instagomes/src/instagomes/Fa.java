@@ -2,7 +2,6 @@ package instagomes;
 
 import instagomes.interfaces.IFa;
 import instagomes.interfaces.ICelebridade;
-import instagomes.interfaces.INivelAssinatura;
 import instagomes.niveis.Niveis;
 
 public class Fa implements IFa{

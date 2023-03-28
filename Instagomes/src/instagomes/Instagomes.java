@@ -1,6 +1,5 @@
 package instagomes;
 
-import instagomes.celebridades.Celebridade;
 import instagomes.niveis.Basico;
 import instagomes.niveis.Gold;
 import instagomes.niveis.Premium;

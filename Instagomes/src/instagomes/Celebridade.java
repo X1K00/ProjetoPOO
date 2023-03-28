@@ -1,6 +1,5 @@
-package instagomes.celebridades;
+package instagomes;
 
-import instagomes.Atualizacao;
 import instagomes.interfaces.IFa;
 import instagomes.interfaces.ICelebridade;
 import java.util.ArrayList;
