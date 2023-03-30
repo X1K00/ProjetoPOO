@@ -7,31 +7,25 @@ import instagomes.niveis.Premium;
 public class Instagomes {
 
     public static void main(String[] args) {
-        Celebridade m = new Celebridade("Manel Gome");
-        Celebridade l = new Celebridade("Luva de Pedreiro");
-        Celebridade x = new Celebridade("Xuxa");
-
         Basico b = new Basico();
         Gold g = new Gold();
         Premium p = new Premium();
         
+        Celebridade m = new Celebridade("Manel Gome");
+        Celebridade l = new Celebridade("Luva de Pedreiro");
+        Celebridade x = new Celebridade("Xuxa");
+       
+        Fa fm1 = new Fa("fã do manel 1");
+        Fa fl1 = new Fa("fã do luva 1");
+        Fa fl2 = new Fa("fã do luva 2");
         
+        fm1.fazerInscricao(m, b); // Fã fazendo inscrição, indicando a celebridade - Strategy e nivel da conta
+        fl1.fazerInscricao(l, g);
+        fl2.fazerInscricao(l, p);
         
-        Fa f2 = new Fa("fã do luva 1");
-        f2.fazerInscricao(l, g);
-        f2.assinarVip();
-        f2.assinarPresente();
-        
-        
-        
-        Fa f1 = new Fa("fã do manel 1");
-        f1.fazerInscricao(m, b);
-        
-        Fa f3 = new Fa("fã do luva 2");
-        f3.fazerInscricao(l, p);
-        
-        
-        
+        fl1.assinarVip();
+        fl1.assinarPresente();
+        // O fã fl1 aasinou os extras: acesso vip e pacote de presente - Decorator
         
         Atualizacao a1 = new Atualizacao();
         a1.setNome(l.getNome());
@@ -58,10 +52,10 @@ public class Instagomes {
         
  
         ////////////////////////////////////////////////////////
-        System.out.println("Uma semana depois...###########################################################################################\n");
+        System.out.println("Um mês depois...###########################################################################################\n");
         
-        f3.cancelarInscricao(l);
-        f2.cancelarAssinaturas();
+        fl2.cancelarInscricao(l); //O fã fl2 cancelando a inscrição na Celebridade l
+        fl1.cancelarAssinaturas(); //O fã fl1 cancelando as assinaturas extras
         
         a1.setNome(l.getNome());
         a1.setConteudo("conteudo luva 2");

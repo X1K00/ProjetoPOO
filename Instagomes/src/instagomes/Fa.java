@@ -32,9 +32,10 @@ public class Fa implements IFa{ // Classe que cria usuarios
         n.setMensagem(a.getMensagem());
         n.setExclusivo(a.getExclusio());
             
-        System.out.println(this.nome);
-        System.out.println(e.getCusto()+" - "+e.getNome());
+        System.out.println("Usuario: "+this.nome);
+        System.out.println("Valor da conta: R$"+e.getCusto()+"\nBeneficios: "+e.getNome());
         System.out.println("Ninel da Conta: "+n.getNome_nivel());
+        
         n.receberConteudo();
         n.mandarMenssagem();
         n.vonteudoExclusi();

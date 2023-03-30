@@ -16,7 +16,7 @@ public abstract class Extra extends Componente{ //Decorator
     }
     @Override
     public String getNome() {
-        return componente.getNome() + ", " +
+        return componente.getNome() + " + " +
         this.nome;
     }
     
